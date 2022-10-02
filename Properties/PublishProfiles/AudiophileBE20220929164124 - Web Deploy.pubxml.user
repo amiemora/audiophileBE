@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASy6w84aS7kOyUPPx5P3SCgAAAAACAAAAAAAQZgAAAAEAACAAAACjSEVVr/VavSFp81OIzb2Jtwss+jWTDOKcVzgs+khHkAAAAAAOgAAAAAIAACAAAAAB3MhOK5SXQXhBPpmQyV2628DMqDcs16a4Xz51SmwLsYAAAABk51qRowv5/uxdBwUS/Nsmhlk0sg03qkeX2OuqSBfh9MYTdDju0rupkcM+RvFUyIaTYy9Ze4DxoJnY92RA5U+UogEyT3qlVqTfvibHJbsYgTe7mNZn5YQasC3aYdtvS89gvMGNzOuc1n07o+IRSylAR7od1Ono7+eW4AtewhJCokAAAAAkSbcADkVnwWzvJlr6OsbHpkojIaQNtw5TnwhgbV5HdNEufSxQkxdERZN4M0bwdiBJ45vKGwdwj/zL6JJBxpPJ</EncryptedPassword>
+    <History>True|2022-09-29T22:17:02.7595705Z;True|2022-09-29T17:13:30.2731132-05:00;False|2022-09-29T17:10:59.9431567-05:00;False|2022-09-29T17:09:15.1335026-05:00;True|2022-09-29T17:06:21.4016995-05:00;True|2022-09-29T17:01:38.5734827-05:00;True|2022-09-29T16:54:58.8900091-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="AudiophileBE.Data.AudiophileBEContext">
+      <Value>Data Source=tcp:audiophilebedbserver.database.windows.net,1433%3bInitial Catalog=AudiophileBE_db%3bUser Id=amiemora%40audiophilebedbserver%3bPassword=morA3413!</Value>
+    </EFMigrations>
+    <EFMigrations Include="AudiophileBE.Models.AudiophileContext">
+      <Value>Data Source=tcp:audiophilebedbserver.database.windows.net,1433%3bInitial Catalog=AudiophileBE_db%3bUser Id=amiemora%40audiophilebedbserver%3bPassword=morA3413!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

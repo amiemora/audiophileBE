@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AudiophileBE20220929164124" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\workspace\\amie\\Audiophile\\Audiophile_backend\\AudiophileBE\\AudiophileBE\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AudiophileBE.Data.AudiophileBEContext" description="" value="Data Source=tcp:audiophilebedbserver.database.windows.net,1433;Initial Catalog=AudiophileBE_db;User Id=amiemora@audiophilebedbserver;Password=morA3413!" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\workspace\\amie\\Audiophile\\Audiophile_backend\\AudiophileBE\\AudiophileBE\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\AudiophileBE\.Data\.AudiophileBEContext\.sql$" />
+  </parameter>
+  <parameter name="AudiophileBE.Models.AudiophileContext" description="" value="Data Source=tcp:audiophilebedbserver.database.windows.net,1433;Initial Catalog=AudiophileBE_db;User Id=amiemora@audiophilebedbserver;Password=morA3413!" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\workspace\\amie\\Audiophile\\Audiophile_backend\\AudiophileBE\\AudiophileBE\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\AudiophileBE\.Models\.AudiophileContext\.sql$" />
+  </parameter>
+</parameters>
