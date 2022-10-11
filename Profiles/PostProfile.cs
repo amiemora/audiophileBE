@@ -6,8 +6,8 @@ namespace AudiophileBE.Profiles
     {
         public PostProfile()
         {
-            CreateMap<Entities.Post, Models.PostDto>();
-            CreateMap<Entities.Post, Models.PostCreateDto>();
+            CreateMap<Entities.Post, Models.PostDto>().ReverseMap();
+            CreateMap<Entities.Post, Models.PostCreateDto>().ReverseMap();
         }
     }
 }
