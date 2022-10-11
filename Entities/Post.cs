@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.SqlTypes;
 
 namespace AudiophileBE.Entities
 {
@@ -10,14 +13,17 @@ namespace AudiophileBE.Entities
             Comments = new HashSet<Comment>();
         }
 
-        public int PostId { get; set; }
-        public int UserId { get; set; }
-        public string SongTitle { get; set; } = null!;
-        public string Album { get; set; } = null!;
-        public string Artist { get; set; } = null!;
-        public int Likes { get; set; }
-        public DateTime? CreatedAt { get; set; }
-        public DateTime? UpdatedAt { get; set; }
+        [Key]
+        public int PostID { get; set; }
+
+        [ForeignKey("UserID")]
+        public int UserID { get; set; }
+        public string song_title { get; set; } = null!;
+        public string album { get; set; } = null!;
+        public string artist { get; set; } = null!;
+        public int likes { get; set; }
+        public DateTime created_at { get; set; } = DateTime.Now;
+        public DateTime updated_at { get; set; } = DateTime.Now;
 
         public virtual User User { get; set; } = null!;
         public virtual ICollection<Comment> Comments { get; set; }
