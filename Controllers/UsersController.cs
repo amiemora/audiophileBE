@@ -1,13 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using AudiophileBE.Models;
-using AudiophileBE.Tools;
-using System.IdentityModel.Tokens.Jwt;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using System.Security.Claims;
 using AudiophileBE.Services;
-using AudiophileBE.Entities;
 using AutoMapper;
 
 namespace AudiophileBE.Controllers

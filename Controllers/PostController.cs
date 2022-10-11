@@ -1,8 +1,10 @@
 ﻿using AudiophileBE.Models;
 using AudiophileBE.Services;
 using AutoMapper;
+using AudiophileBE.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using AudiophileBE.DbContexts;
 
 namespace AudiophileBE.Controllers
 {
@@ -12,13 +14,16 @@ namespace AudiophileBE.Controllers
     {
         private readonly IPostRepository _postRepository;
         private readonly IMapper _mapper;
+        private readonly AudiophileContext _context;
+        private readonly IConfiguration _configuration;
 
-        public PostController(IPostRepository postRepository, IMapper mapper)
+        public PostController(AudiophileContext _context, IConfiguration _configuration, IPostRepository postRepository, IMapper mapper)
         {
+            this._context = _context;
+            this._configuration = _configuration;
             _postRepository = postRepository ?? throw new ArgumentNullException(nameof(postRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
-
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PostDto>>> GetAllPost()
@@ -30,7 +35,7 @@ namespace AudiophileBE.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<PostDto>> GetPost(int id)
+        public async Task<ActionResult<PostDto>> GetUser(int id)
         {
             var postEntities = await _postRepository.GetPostAsync(id);
 
@@ -39,11 +44,25 @@ namespace AudiophileBE.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PostCreateDto>> CreatePost(int userId, string songTitle, string album, string artist)
+        public async Task<ActionResult<PostDto>> CreatePost(PostDto model)
         {
-            var postEntity = await _postRepository.CreatePostAsync(userId, songTitle, album, artist);
- 
-            return Ok();
+
+            try
+            {
+                var _post = new Post();
+                _post.UserID = model.UserId;
+                _post.song_title = model.song_title;
+                _post.album = model.Album;
+                _post.artist = model.Artist;
+                _context.Post.Add(_post);
+                await _context.SaveChangesAsync();
+                return Ok("Successfully created Post.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
         }
     }
 }
