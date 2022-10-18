@@ -11,6 +11,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>AudiophileBE.Data.AudiophileBEContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\Properties\PublishProfiles\AudiophileBE - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>AudiophileBE - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

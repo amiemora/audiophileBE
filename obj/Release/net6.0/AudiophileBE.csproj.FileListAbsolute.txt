@@ -271,3 +271,14 @@ D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Re
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\AudiophileBE.pdb
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\AudiophileBE.genruntimeconfig.cache
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\ref\AudiophileBE.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\AutoMapper.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\Castle.Core.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\DurableTask.Core.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.Core.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.Interfaces.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.Linq.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.PlatformServices.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.Providers.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\bin\Release\net6.0\System.Reactive.xml

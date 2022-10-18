@@ -1,6 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
   <IisApp path="D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\" />
-  <dbfullsql path="D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\EFSQLScripts\AudiophileBE.Data.AudiophileBEContext.sql" />
-  <dbfullsql path="D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\EFSQLScripts\AudiophileBE.Models.AudiophileContext.sql" />
 </sitemanifest>

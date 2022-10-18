@@ -4,8 +4,11 @@ D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Re
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\AudiophileBE.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\AudiophileBE.runtimeconfig.json
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\AudiophileBE.pdb
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\AutoMapper.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Azure.Core.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Azure.Identity.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Castle.Core.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
@@ -13,6 +16,7 @@ D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Re
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\DurableTask.Core.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.Framework.dll
@@ -81,6 +85,11 @@ D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Re
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Memory.Data.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.Core.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.Interfaces.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.Linq.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.PlatformServices.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.Providers.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Runtime.Caching.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Security.Permissions.dll
@@ -253,4 +262,6 @@ D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Re
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.dll
+D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\System.Reactive.xml
 D:\workspace\amie\Audiophile\Audiophile_backend\AudiophileBE\AudiophileBE\obj\Release\net6.0\PubTmp\Out\AudiophileBE.deps.json
